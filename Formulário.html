@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário de pesquisa</title>
+    </head>
+    <body>
+        <h1>Pesquisa de satisfação</h1>
+        <section>
+        <form action="/enviar" method="post">
+            <P>
+                <label for="nome">Nome</label>
+            <input type="nome" id="nome" type="text" placeholder="Digite seu nome" required>
+            </P>
+            <p>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br>
+            </p>
+            <p><label for="telefone"></label>Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required><br>
+            </p>
+        </section>
+        <section>
+            <h2>Nos diga se está satisfeito</h2>
+            <p>
+            <label><input type="radio" name="satisfação">Estou satisfeito</label>
+            <label><input type="radio" name="satisfação">Não estou satisfeito</label>
+            </p> 
+            <h2>Aceita receber notificações?</h2>
+            <p>
+            <label><input type="radio" name="satisfação1">Sim</label>
+            <label><input type="radio" name="satisfação1">Não</label>
+            </p> 
+            <p>
+            <label><input type="checkbox" checked>Autorizo compartilhamento ccom terceiros</label>
+            </p>
+            <label for="departamento">Departamento de atendimento:</label><br>
+            <select>
+                <option>Atendimento</option>
+                <option>Marketing</option>
+                <option>Comercial</option>
+            </select>
+        </section>
+            <p id="tc"><input type="submit" value="Enviar"></p>
+    </body>
+</html>
