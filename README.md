@@ -1,4 +1,4 @@
 Projeto Desenvolve - Itabira/MG
-HTML/CSS
+Programação básica com HTML
 Hiago Espindola Ambrosio
 PDITA 481
